@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!------------Change Event Listener----------->
+    <div class="change">
+        <p>Change Event</p>
+        <label>Choose an ice cream:
+            <select class="ice-cream" name="ice-cream">
+            <option value="">Select One…</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="sardine">Strawberry</option>
+            <option value="vanilla">Vanilla</option>
+            </select>
+        </label>
+    <div class="result"></div>
+    </div>
+     
+    
+    <!------------Click Event Listener----------->
+    <div class="click">
+        <p>Click Event</p>
+        <p id="clickMe">CLICK ME!!!</p>
+    </div>
+
+
+    <!------------Keydown Event Listener----------->
+    <div class="keydown">
+        <p>Keydown Event</p>
+        <input type="text" id="demo">
+    </div>
+
+
+    <!------------Mousemove Event Listener----------->
+    <div class="mousemove">
+        <p>Mousemove Event</p>
+        <div id="myDIV">
+            Mouse over the rectangle and get the coordinates of your mouse pointer.
+        </div>
+        <p id="coords"></p>
+    </div>
+
+
+    <!------------Resize Event Listener----------->
+    <div class="resize">
+        <p>Resize Event</p>
+        <p class="para">Window resized <span id="counter">0</span> times.</p>
+    </div>
+
+
+    <!------------Submit Event Listener----------->
+    <div class="submit">
+        <form id="form">
+            <label>Test field: <input type="text"></label>
+            <br><br>
+            <button type="submit">Submit form</button>
+        </form>
+        <p id="log"></p>
+    </div>
+      
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
